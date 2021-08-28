@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 class Person {
   constructor(name, height, weight) {
@@ -12,8 +12,8 @@ class Person {
   }
 }
 
-const mark = new Person("Mark", 1.69, 78);
-const john = new Person("John", 1.95, 92);
+const mark = new Person('Mark', 1.69, 78);
+const john = new Person('John', 1.95, 92);
 
 console.log(
   `BMI information Mark ${mark.calcBMI()}, John ${john.calcBMI()}. Is Mark's BMI more ? ${

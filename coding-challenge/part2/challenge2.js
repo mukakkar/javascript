@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const calcTip = (amount) =>
   amount >= 50 && amount <= 300 ? amount * 0.15 : amount * 0.2;

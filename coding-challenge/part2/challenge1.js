@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
 const checkWinner = (team1AvgScore, team2AvgScore, nameTeam1, nameTeam2) => {
